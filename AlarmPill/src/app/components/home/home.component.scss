@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('/assets/fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {    
+    background-color: #f0fbff;
+    width: 100%;
+}
+
+.boton-primario {
+    background-color: #006484;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 176px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.align-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+
+img {
+    width: 75%;
+    height: auto;
+    margin: 30px;
+}
+
+.logo {
+    width: 280px;
+
+}
+
+.container {
+    width: 980px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;   
+}
+
+.contenido {
+    width: 640px;
+    height: 450px;
+    margin-top: 120px;
+    font-family: Roboto, sans-serif;
+    color: #00516F;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: 0.15px;
+    flex: 1;
+}
+
+.titulo {
+    font-family: Berlin Sans FB, sans-serif;
+    color: #00516F;
+    font-size: 60px;
+    line-height: 1.6;
+    flex: 1;
+}
+
+.alarm{
+    font-weight: 400;
+    color: #FF6242;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.pill{
+    font-weight: 400;
+    color: #2C5871;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
