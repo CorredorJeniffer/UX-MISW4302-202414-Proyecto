@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vías de administración</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-3">
+          <div></div>
+            <div class="logo">
+                <p class="alarm-pill"> <span class="alarm">Alarm</span><span class="pill">Pill</span></p>
+                <img class="img-logo" src="assets/images/logoAlarmPill.png" alt="Logo AlarmPill">
+            </div>
+        </div>
+        <div class="col-md-9">
+          <div class="row row-close">
+            <button type="button" class="btn boton-primario cerrar-sesion" routerLink="/">Cerrar sesión <img class="img-close" src="./assets/images/close.png" alt="cerrar"></button>         
+          </div>
+          <div class="row">
+            <div class="col-md-5 img-add">
+              <img class="img-add" src="./assets/images/add.png" alt="adicionar">
+            </div>
+            <div class="col-md-6">
+              <p class="titulo-tabla">Vías de administración</p>
+            </div>
+            
+          </div>  
+          <div class="row row-descripcion">     
+            <table class="table tabla-medicamentos">
+              <thead>
+                <tr>
+                  <th scope="col">Id Medicamento</th>
+                  <th scope="col">Vía de administración</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>#1</td>
+                  <td>Nasal</td>
+                  <td><img class="img-opcion" src="./assets/images/edit.png" alt="editar"><img class="img-opcion" src="./assets/images/delete.png" alt="eliminar"></td>
+                </tr>
+                <tr>
+                  <td>#2</td>
+                  <td>Oral</td>
+                  <td><img class="img-opcion" src="./assets/images/edit.png" alt="editar"><img class="img-opcion" src="./assets/images/delete.png" alt="eliminar"></td>
+                </tr>
+                <tr>
+                  <td>#3</td>
+                  <td>Venosa</td>
+                  <td><img class="img-opcion"  src="./assets/images/edit.png" alt="editar"><img class="img-opcion" src="./assets/images/delete.png" alt="eliminar"></td>
+                </tr>
+              </tbody>
+            </table>           
+          </div>
+          <div class="row row-regresar">
+            <button type="button" class="btn btn-regresar" routerLink="/main">Regresar</button>
+          </div>      
+        </div>
+    </div>    
+</body>
+</html>
