@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('/assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins semibold';
+    src: url('/assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins semibold';
+    src: url('/assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins medium';
+    src: url('/assets/fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {    
+    background-color: #f0fbff;
+    width: 100%;
+}
+
+.boton-primario {
+    background-color: #006484;
+    color: white;
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 204px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 75%;
+    height: auto;
+    margin: 30px;
+}
+
+.logo {
+    width: 280px;
+    padding-left: 2rem;
+}
+
+.container {
+    width: 980px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;   
+}
+
+.contenido {
+    width: 640px;
+    height: 450px;
+    margin-top: 80px;
+    font-family: Poppins, sans-serif;
+    color: #00516F;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: 0.15px;
+    flex: 1;
+    text-align: center;
+}
+
+.alarm-pill {
+    font-family: Berlin Sans FB, sans-serif;
+    color: #00516F;
+    font-size: 60px;
+    line-height: 1.6;
+    flex: 1;
+}
+
+.titulo {
+    font-family: Poppins semibold, sans-serif;
+    color: #00516F;
+    font-size: 26px;
+    line-height: 1.6;
+    flex: 1;
+    font-weight:800;
+    margin-bottom: 50px;
+}
+
+.alarm{
+    font-weight: 400;
+    color: #FF6242;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.pill{
+    font-weight: 400;
+    color: #2C5871;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.label{
+    font-family: Poppins medium, sans-serif;
+    font-size: 20px;
+    color: #00516F;
+}
+
+.form-control{    
+    border-radius: 12px;
+    border-color: #00516F;
+    width: 248px;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group{
+    margin-bottom: 40px;    
+}
+
+.registro{
+    color: #00516F;
+}
+
+a{
+    font-family: Poppins, sans-serif;
+    color: #7C838A;
+    font-size: 18px;
+    line-height: 1.6;
+    flex: 1;
+}
+
+.col-md-9{    
+    margin-top: 20px;
+    padding: 50px;
+}
+
+.formulario-login{
+    margin-left: 50px;
+}
+
+.enlace {
+    margin-left: 20px;
+}
+
+.row {
+    padding: 40px;
+}
