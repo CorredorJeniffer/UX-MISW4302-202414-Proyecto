@@ -9,6 +9,8 @@
 
 ## Instalación
 
+Desde su línea de comando
+
 1. Clona el repositorio:
     ```bash
     git clone https://github.com/CorredorJeniffer/UX-MISW4302-202414-Proyecto.git
@@ -29,3 +31,10 @@ Para iniciar el servidor de desarrollo, ejecuta:
 npm start
 npm ng serve -o
 ```
+
+### Autores
+
+| Autor  | Correo |
+| --------------  | ----------- |
+| Jeniffer Corredor Enciso | j.corredore@uniandes.edu.co |
+| Erika Margarita Forero | e.foreros@uniandes.edu.co |
